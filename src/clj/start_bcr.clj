@@ -16,7 +16,7 @@
   (def repl-env (reset! cemerick.austin.repls/browser-repl-env
                         (cemerick.austin/repl-env)))
 
-  "now a repl env exists! Now open localhost:8080 in your browser as requested"
+  "now a repl env exists! Now open localhost:8080 in your browser"
 
   "Almost done, now eval this, open one of the cljs files in this repo, and
   start working from there"
