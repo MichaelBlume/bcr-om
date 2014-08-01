@@ -16,6 +16,7 @@
 
 (defroutes site
   (resources "/") 
+  (GET "/react.js" req (io/resource "react.js"))
   (GET "/*" req (do (repage) (page))))
 
 (defn run
