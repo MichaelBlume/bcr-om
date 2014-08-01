@@ -15,3 +15,5 @@ pom.xml*
 .externalToolBuilders
 .repl
 out
+.lein-repl-history
+.nrepl-port
